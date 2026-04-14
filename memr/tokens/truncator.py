@@ -1,10 +1,4 @@
 """
-MemR Smart Truncator — signal-aware content truncation.
-
-Unlike naive truncation (which just chops at a byte offset), this
-preserves complete signal lines and prioritizes high-value signals
-when space is tight.
-
 Priority order (highest to lowest):
   1. ⚡ surprises   — traps others must avoid
   2. ⊕  constraints — hard rules that can't be broken  
