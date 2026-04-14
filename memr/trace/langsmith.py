@@ -1,17 +1,3 @@
-"""
-═══════════════════════════════════════════════════════════════
-memr/trace/langsmith.py — LangSmith trace adapter
-═══════════════════════════════════════════════════════════════
-
-Sends per-tool-call trace spans to LangSmith for real-time
-monitoring of token consumption, routing decisions, and timing.
-
-Setup:
-  pip install langsmith
-  export LANGCHAIN_API_KEY="ls-..."
-  export LANGCHAIN_PROJECT="memr"  (optional, defaults to "memr")
-"""
-
 from __future__ import annotations
 import logging
 from contextlib import contextmanager
