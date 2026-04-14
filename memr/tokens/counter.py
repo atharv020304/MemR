@@ -1,10 +1,3 @@
-
-"""
-═══════════════════════════════════════════════════════════════
-memr/tokens/counter.py — Token counting with tiktoken
-═══════════════════════════════════════════════════════════════
-"""
-
 from __future__ import annotations
 import tiktoken
 
