@@ -1,17 +1,3 @@
-
-"""
-═══════════════════════════════════════════════════════════════
-memr/trace/langwatch.py — Langwatch trace adapter
-═══════════════════════════════════════════════════════════════
-
-Sends per-tool-call trace spans to Langwatch for real-time
-monitoring dashboards with token cost breakdowns.
-
-Setup:
-  pip install langwatch
-  export LANGWATCH_API_KEY="lw-..."
-"""
-
 from __future__ import annotations
 import logging
 from contextlib import contextmanager
