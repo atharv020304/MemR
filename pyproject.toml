@@ -1,7 +1,7 @@
 [project]
 name = "memr"
 version = "1.0.0"
-description = "Memory Relay — persistent, token-efficient shared memory for AI agents"
+description = "Memory Relay — persistent, token-efficient shared memory for agents"
 requires-python = ">=3.11"
 
 dependencies = [
