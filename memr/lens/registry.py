@@ -1,6 +1,5 @@
 """
 MemR Lens Registry — maps each lens to its scoped system prompt.
-
 Each lens is defined in its own module (recall.py, capture.py, etc.)
 and registered here. The registry is the single lookup point used
 by the Relay agent to fetch the right prompt before a tool call.

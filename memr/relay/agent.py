@@ -4,7 +4,7 @@ MemR Relay — ReAct routing agent.
 Sits on top of the MCP server and decides:
   1. Which vault(s) to query
   2. Which lens (scoped prompt) to load
-  3. How much token budget to allocate
+  3. How much token budget to allocate for each 
   4. Whether to skip the call entirely (context already loaded)
 
 The Relay runs an Observe → Think → Act loop for every incoming request
